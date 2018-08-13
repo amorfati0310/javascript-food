@@ -1079,6 +1079,25 @@ a {
 
 .scroll-button-list {
   position: fixed;
+<<<<<<< HEAD
+=======
+  bottom: 70px;
+  right: 5%;
+  z-index: 1000;
+}
+
+.scroll-button-list a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  text-indent: -3000px;
+  background: url(../../assets/images/scrollBtn.png);
+}
+
+.scroll-button-list .down-button {
+  background-position: 0 -50px;
+>>>>>>> test
 }
 
 /*# sourceMappingURL=app.css.map */

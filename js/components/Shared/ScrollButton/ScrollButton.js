@@ -1,19 +1,4 @@
 import { qs,  $on } from '../../../helper/helper.js';
-<<<<<<< HEAD
-import { scrollBtnTemplate } from './template/ScrollButtonTemplate.js';
-
-export default class ScrollButton {
-  constructor(scrollBtnSelector) {
-    this.scrollBtnListEl = qs(scrollBtnSelector);
-    this.init()
-  }
-  init(){
-    this.render();
-  }
-  render(){
-    this.scrollBtnListEl.innerHTML = scrollBtnTemplate;
-  }
-=======
 import animation from '../../../helper/animation/raf.js';
 export default class ScrollButton {
   constructor(scrollBtnSelector) {
@@ -47,5 +32,4 @@ export default class ScrollButton {
     animation.scrollBottom(window, document.body.offsetHeight);
   }
  
->>>>>>> upstream/amorfati0310
 }
